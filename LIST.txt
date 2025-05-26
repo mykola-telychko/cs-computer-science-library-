@@ -10,6 +10,12 @@ Level 4: Code (не обов'язковий) — деталізує реаліз
 Це зручно для команд, які хочуть узгоджено документувати, обговорювати або представляти архітектуру на різних рівнях деталізації.
 
 ———
+
+Методи розв'язування дослідницьких задач за допомогою програмування 
+https://www.youtube.com/playlist?list=PLffzypciL6QIxF6dYWVjTPz6NkVngddjQ
+
+MATH - algo discrete logic
+----------------------
 юмл
 https://youtu.be/dJFUZSCzpU0?si=DVZkfM5Wo81Xx3wz
 
