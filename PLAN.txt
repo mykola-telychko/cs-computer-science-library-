@@ -3,5 +3,7 @@ https://computer-science-ua.blogspot.com/2024/08/blog-post.html
 
 basic school materials (usa/ua/eu)
 
+мікросервісні патерни
+
 - матеріали можуть перетинатися з проектом Radio. 
 https://github.com/mykola-telychko/radio
