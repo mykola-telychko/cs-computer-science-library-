@@ -7,3 +7,6 @@ basic school materials (usa/ua/eu)
 
 - матеріали можуть перетинатися з проектом Radio. 
 https://github.com/mykola-telychko/radio
+
+Сервісно орієнтовані архітектури (SOA)
+https://youtube.com/playlist?list=PLQdGRloUd6QE1GkXsVUaNYUiHMOZzWRhZ&si=SsmwxsHKIePKR4RT
