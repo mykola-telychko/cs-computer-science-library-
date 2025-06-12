@@ -1,0 +1,19 @@
+comp network course 9h
+https://www.youtube.com/watch?v=qiQR5rTSshw
+
+apache2 
+https://highload.today/logi-error_log-i-access_log-v-apache/
+
+mysql max connections
+https://www.dmosk.ru/miniinstruktions.php?mini=mysql-max-connections
+
+---
+sudo chown -R $(whoami) ~/.npm ——- выдача прав на npm и любую папку .
+---
+
+bash_online_compiler
+https://rextester.com/l/bash_online_compiler
+
+-----
+console windows and linux commands
+https://white55.ru/cmd-sh.html

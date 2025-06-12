@@ -3,3 +3,23 @@ https://bookflow.ru/pravila-spetsialista-informatsionnoj-bezopasnosti/
 https://bookflow.ru/aktualnye-tehniki-vzloma-wifi/
 
 https://t.me/bfbook (june 2020 28)
+
+cert-ua 
+https://cert.gov.ua/article/3718487
+
+-----
+при настройке #wifi на новом провайдере — нужно дать мак адрес роутера новому провайдеру 
+после настройки конфигов . и после всего перезагрузить роутер .
+
+-----
+check ddos attack: tcpdump -n port 80 -c 200 -w ddos.log
+
+-----
+lisense 
+https://stalirov.lawyer/uk/posts/shcho-take-litsenziya-na-prohramne-zabezpechennya
+
+-------
+https://securityboulevard.com/2018/06/amplified-ddos-attacks-are-here-to-stay-experts-say/
+
+
+-------
