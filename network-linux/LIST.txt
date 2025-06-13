@@ -7,13 +7,47 @@ https://highload.today/logi-error_log-i-access_log-v-apache/
 mysql max connections
 https://www.dmosk.ru/miniinstruktions.php?mini=mysql-max-connections
 
+// COMMANDS 
+https://github.com/mykola-telychko/main-linux-commands-easy-guide/blob/main/README.md
+
 ---
 sudo chown -R $(whoami) ~/.npm ——- выдача прав на npm и любую папку .
 ---
 
+BASH ENG 
 bash_online_compiler
 https://rextester.com/l/bash_online_compiler
 
+https://youtu.be/oxuRxtrO2Ag
+
+https://www.youtube.com/playlist?list=PLTXMX1FE5Hj5ZJDt_WMbioFpdWO5SGy8r
 -----
 console windows and linux commands
 https://white55.ru/cmd-sh.html
+
+-----
+perl 
+https://eax.me/perl-oneliners/
+
+------
+
+баш ру 
+
+новачки
+https://www.opennet.ru/docs/RUS/bash_scripting_guide/x1705.html
+
+https://www.youtube.com/watch?v=bk0YBz-VqTo&list=PLRZDRng2SWPggdZOHQJ5iTvp8-UG7OVXD
+
+https://www.youtube.com/watch?v=B8Mk-LG11OQ
+
+https://xakep.ru/2016/09/08/19-shell-scripts/
+https://proglib.io/p/hidden-features-bash
+https://losst.pro/bash-skripty-linux
+
+
+https://habr.com/ru/companies/ruvds/articles/325522/ - початок 
+https://habr.com/ru/companies/ruvds/articles/328346/ - 10 урок 
+
+------
+курси 
+https://hackyourmom.com/vidkrytyj-dostup-do-it-kursiv-cherez-cybergypsies-vid-hackyourmom/
