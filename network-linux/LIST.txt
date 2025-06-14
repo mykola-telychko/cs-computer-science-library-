@@ -12,11 +12,84 @@ https://github.com/mykola-telychko/main-linux-commands-easy-guide/blob/main/READ
 
 ---
 sudo chown -R $(whoami) ~/.npm ——- выдача прав на npm и любую папку .
+
+> HARDWARE:
+find in file #linux cat install.sh | grep cache
+
+> HARDWARE:
+show match and no match (-v) 
+grep "Core" /home/nico/file.log;              grep -v "Core" /home/nico/file.log;
+
+> HARDWARE:
+find extentions in assign dir 
+find . -name "*txt" | grep -i node_modules
+
+> HARDWARE:
+find port and procces id sudo lsof -i -P -n | grep LISTEN | grep java
+
+> HARDWARE:
+find pid on name , find port 
+nico@nico:~$ sudo netstat -tulpn | grep LISTEN | grep mysql
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      1059/mysqld
+
+> HARDWARE:
+check Pid only for Atom editor ps aux | pgrep atom
+
+> HARDWARE:
+pidof -s atom
+
+> HARDWARE:
+Check child process: pstree -p | grep atom
+
+> HARDWARE:
+Which process use selected file: lsof /home/avanti/Загрузки/Task-bash.pdf
+
+> HARDWARE:
+More precise who use file : /home/avanti/Загрузки/Task-bash.pdf:  6136
+
+> HARDWARE:
+Wich file open in filder: sudo  auditctl -w /home/avanti/Загрузки  -p x -k
+
+> HARDWARE:
+What process is the process busy with  sudo ss -lptn 'sport = :3306'
+
+> HARDWARE:
+System data collection (version, property, dir tree) ~/tmp $ touch file.txt
+~/tmp $ (uname && who) > file.txt
+~/tmp $ cat file.txt
+Linux
+tommy   t7         2020-01-16 00:30 (:0)
+
+--
+
+> HARDWARE:
+dpkg -l | grep tcpdump
+
+> HARDWARE:
+check install package 
+dpkg -l | grep packagename
+
+> HARDWARE:
+bash - командный интерпритатор .
+
+> HARDWARE:
+dpkg-query -s tcpdump Check info about package
+
+> HARDWARE:
+lдистрибутивы - комбинации ядра .
+
+> HARDWARE:
+ps aux | grep mysql > ./file.txt write process name to current dir to file.txt
+
+
+
 ---
 
 BASH ENG 
 bash_online_compiler
 https://rextester.com/l/bash_online_compiler
+
+https://devhints.io/bash
 
 https://youtu.be/oxuRxtrO2Ag
 
@@ -30,9 +103,9 @@ perl
 https://eax.me/perl-oneliners/
 
 ------
+BASH --- begin
 
 баш ру 
-
 новачки
 https://www.opennet.ru/docs/RUS/bash_scripting_guide/x1705.html
 
@@ -44,6 +117,10 @@ https://xakep.ru/2016/09/08/19-shell-scripts/
 https://proglib.io/p/hidden-features-bash
 https://losst.pro/bash-skripty-linux
 
+awk (використання awk і sed)
+https://rus-linux.net/MyLDP/consol/awk.html
+
+Продовжена Bash автоматизація для веб-розробників - Відеоуроки(знайти)
 
 https://habr.com/ru/companies/ruvds/articles/325522/ - початок 
 https://habr.com/ru/companies/ruvds/articles/328346/ - 10 урок 
@@ -51,3 +128,49 @@ https://habr.com/ru/companies/ruvds/articles/328346/ - 10 урок
 ------
 курси 
 https://hackyourmom.com/vidkrytyj-dostup-do-it-kursiv-cherez-cybergypsies-vid-hackyourmom/
+
+BASH --- end
+-------
+
+vim playlist
+https://www.youtube.com/playlist?list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr
+https://www.opennet.ru/docs/RUS/vim_cookbook/#drawing
+Vim-Editor. book Neil(in my book collection)
+
+https://www.youtube.com/watch?v=v9y1QL4boXo
+https://www.guckes.net/vim/setup.html
+https://habr.com/ru/post/53435/
+https://habr.com/ru/post/64224/
+https://habr.com/ru/articles/142777/
+
+https://www.opennet.ru/tips/1714_vip_edit_text.shtml
+
+nano 
+https://vps.ua/wiki/text-editor-nano/
+
+
+-------
+
+managing Linux
+https://www.youtube.com/playlist?list=PLxNYCaV8dHZGUFZYMVi6dOlC5joY-PgGn
+
+https://www.youtube.com/playlist?list=PLdJo1XilUTZN3jw6dalF9QyYhYjV2ZC56
+
+------
+https://thehost.ua/wiki/administration/ssh/import-dump
+
+-------
+
+work with network 
+
+open ports ubuntu
+https://losst.pro/otkrytye-porty-ubuntu
+
+https://www.youtube.com/playlist?list=PLj9lxipB1mJwm-5VOXivmJ3K1BL0BpTCo
+
+tcp/ip 
+https://www.youtube.com/watch?v=rLUzYeLdM0k
+
+-------
+regexp 
+https://proglib.io/p/33-regexp

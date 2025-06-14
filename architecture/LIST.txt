@@ -33,6 +33,12 @@
 2. **Розподілені системи без блокчейну** (Apache Kafka, IPFS) — швидкі, але без гарантії незмінності.  
 3. **DAG (Directed Acyclic Graph)** — використовується в IOTA, Nano (швидкі транзакції, але менша безпека).  
 
+огляд блокчейн (укр)
+https://www.youtube.com/watch?v=xTdvkFLtFaE
+
+ОС архітектура. 
+https://www.youtube.com/playlist?list=PLlb7e2G7aSpT4SMpYl6uVYi13k0k9CBiq
+
 ---
 
 ### **Хто винайшов блокчейн?**  

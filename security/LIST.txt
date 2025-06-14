@@ -21,5 +21,11 @@ https://stalirov.lawyer/uk/posts/shcho-take-litsenziya-na-prohramne-zabezpechenn
 -------
 https://securityboulevard.com/2018/06/amplified-ddos-attacks-are-here-to-stay-experts-say/
 
-
+лекція від хака 
+https://www.youtube.com/watch?v=CSSpiECMBn8
 -------
+Один из популярных способов блокировки сайтов — системы глубокого анализа трафика — Passive DPI и Active DPI. Они подменяют нужный пользователю сайт страницей-заглушкой провайдера.
+
+Энтузиаст разработал программу GoodbyeDPI, которая возвращает доступ к заблокированным при помощи DPI сайтам. Для этого даже не нужно использовать прокси и VPN.
+
+Подробнее о настройке на GitHub: https://github.com/ValdikSS/GoodbyeDPI
