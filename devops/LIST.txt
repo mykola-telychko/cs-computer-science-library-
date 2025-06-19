@@ -7,3 +7,6 @@ https://www.youtube.com/watch?v=L3tgJXsMUTU
 
 docker 
 https://www.youtube.com/watch?v=0bT-eJNwfVU
+
+devops meet 
+https://www.youtube.com/live/bd7ofOND6ZQ?t=680s
