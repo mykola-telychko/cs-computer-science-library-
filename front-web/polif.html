@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вендорні префікси vs Поліфіли</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'PT Mono', monospace;
+      background: #DBDED3;
+      color: #000;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      border: 2px solid #7E8272;
+      background: #DBDED3;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      position: relative;
+    }
+
+    .circle {
+      width: 10px;
+      height: 10px;
+      background: #DBDED3;
+      border: 2px solid #7E8272;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .top.left { top: -6px; left: -6px; }
+    .top.right { top: -6px; right: -6px; }
+    .bottom.left { bottom: -6px; left: -6px; }
+    .bottom.right { bottom: -6px; right: -6px; }
+
+    h1 {
+      font-size: clamp(24px, 4vw, 32px);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 15px 0 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid #7E8272;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #c9ccb9;
+    }
+
+    code {
+      background: #f0f0f0;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 600px) {
+      table, th, td {
+        font-size: 12px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="circle top left"></div>
+  <div class="circle top right"></div>
+  <div class="circle bottom left"></div>
+  <div class="circle bottom right"></div>
+
+  <h1>Вендорні префікси ≈ Поліфіли?</h1>
+
+  <p><strong>Твердження:</strong> <code>Вендорні префікси в CSS === js поліфіли</code> — <strong>частково правильне</strong>, але не зовсім технічно точне.</p>
+
+  <h2>Спільне</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Ознака</th>
+        <th>Вендорні префікси (CSS)</th>
+        <th>Поліфіли (JS)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Мета</td>
+        <td>Підтримка старих або експериментальних фіч</td>
+        <td>Додавання нових API у старих браузерах</td>
+      </tr>
+      <tr>
+        <td>Кросбраузерність</td>
+        <td>✅</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Обхід обмежень</td>
+        <td>✅</td>
+        <td>✅</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Відмінності</h2>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Вендорні префікси</th>
+        <th>Поліфіли</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Рівень</td>
+        <td>Стілі (CSS)</td>
+        <td>Логіка, API (JS)</td>
+      </tr>
+      <tr>
+        <td>Коли потрібні</td>
+        <td>Для підтримки експериментальних властивостей</td>
+        <td>Коли браузер не знає нову фічу</td>
+      </tr>
+      <tr>
+        <td>Чи можна з часом прибрати</td>
+        <td>Так</td>
+        <td>Залежить від підтримки старих браузерів</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Висновок</h2>
+  <p>
+    Вендорні префікси та поліфіли мають <strong>схожу мету</strong> — зробити код сумісним із різними браузерами, але реалізуються вони на різних рівнях.
+    Коректніше казати: <em>"вендорні префікси — це аналог поліфілів, але для CSS"</em>.
+  </p>
+</div>
+
+</body>
+</html>

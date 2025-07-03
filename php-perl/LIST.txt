@@ -1,2 +1,5 @@
 php cron jobs
 https://code.tutsplus.com/tutorials/managing-cron-jobs-with-php--net-19428
+
+php + ajax 
+https://www.youtube.com/watch?v=qQlSjvhbTVc&list=PLHZ9wVuPPnMyVAYydquyoYic9oDxRRKDR&index=6

@@ -10,3 +10,12 @@ https://github.com/mykola-telychko/radio
 
 Сервісно орієнтовані архітектури (SOA)
 https://youtube.com/playlist?list=PLQdGRloUd6QE1GkXsVUaNYUiHMOZzWRhZ&si=SsmwxsHKIePKR4RT
+
+-----
+Проприета́рное програ́ммное обеспе́чение, несвобо́дное программное обеспечение 
+(англ. proprietary software; от proprietary «частное, патентованное, в составе собственности» 
++ software «программное обеспечение»)
+ — программное обеспечение, являющееся частной собственностью авторов или правообладателей
+
+----
+https://www.reddit.com/r/PHP/comments/1drzdwz/what_is_the_point_of_assert/?tl=ru
